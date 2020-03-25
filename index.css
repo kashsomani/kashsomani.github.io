@@ -20,7 +20,15 @@
 @media (max-width: 576px) {
   
 }
-
+.bg {
+	background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  
+	height: 100%;
+  
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -63,7 +71,21 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
-
+body, html {
+	height: 100%;
+  }
+  .bg {
+	/* The image used */
+	background-image: url("img/background.jpg");
+  
+	/* Full height */
+	height: 100%;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
 
 
 
